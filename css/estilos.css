@@ -1,0 +1,174 @@
+/* ===========================
+   CONFIGURACIÓN GENERAL
+=========================== */
+
+body{
+    background-color:#051424;
+    color:#d4e4fa;
+    overflow-x:hidden;
+}
+
+
+/* ===========================
+   TARJETAS EFECTO GLASS
+=========================== */
+
+.glass-card{
+
+    background:
+    rgba(30,41,59,.4);
+
+    backdrop-filter:
+    blur(12px);
+
+    border:
+    1px solid
+    rgba(255,255,255,.1);
+
+    box-shadow:
+    0 20px 50px
+    rgba(0,0,0,.3);
+
+}
+
+
+/* ===========================
+   ICONOS MATERIAL
+=========================== */
+
+.material-symbols-outlined{
+
+font-variation-settings:
+
+'FILL' 0,
+'wght' 400,
+'GRAD' 0,
+'opsz' 24;
+
+}
+
+
+/* ===========================
+   EFECTO ELEVACIÓN
+=========================== */
+
+.hover-lift{
+
+transition:
+transform .4s
+cubic-bezier(
+0.175,
+0.885,
+0.32,
+1.275
+);
+
+}
+
+
+.hover-lift:hover{
+
+transform:
+translateY(-8px);
+
+}
+
+
+/* ===========================
+   SELECCIÓN DE TEXTO
+=========================== */
+
+::selection{
+
+background:#8083ff;
+
+color:#0d0096;
+
+}
+
+
+/* ===========================
+   IMÁGENES
+=========================== */
+
+img{
+
+max-width:100%;
+
+display:block;
+
+}
+
+
+/* ===========================
+   SCROLL PERSONALIZADO
+=========================== */
+
+::-webkit-scrollbar{
+
+width:10px;
+
+}
+
+
+::-webkit-scrollbar-track{
+
+background:#051424;
+
+}
+
+
+::-webkit-scrollbar-thumb{
+
+background:#273647;
+
+border-radius:10px;
+
+}
+
+
+::-webkit-scrollbar-thumb:hover{
+
+background:#8083ff;
+
+}
+
+
+/* ===========================
+   SUAVIZADO
+=========================== */
+
+html{
+
+scroll-behavior:smooth;
+
+}
+
+
+/* ===========================
+   BOTONES
+=========================== */
+
+button{
+
+cursor:pointer;
+
+transition:
+all .3s ease;
+
+}
+
+
+button:hover{
+
+opacity:.95;
+
+}
+
+
+button:active{
+
+transform:
+scale(.98);
+
+}
